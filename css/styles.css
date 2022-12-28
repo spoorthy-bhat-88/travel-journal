@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    background-color: rgba(14, 41, 108);
+    height: 100%;
+    overflow: auto;
+}
+h1 {
+    background-color: lightblue;
+    color: rgba(14, 41, 108);;
+    font-size: 1.7em;
+    font-weight: 10;
+    text-align:left;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    background-color: black;
+    border-color: white;
+    border-width: 10px;;
+    width: 60%;
+    position: relative;
+    left: 15%;
+    border-radius: 3% 3%;
+    padding: 0.05px;
+}
+p {
+    border-radius: 5% 5%;
+    border: 4px;
+    height: 300px;
+    width: 98%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 1%;
+    padding: 0.05px;
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+}
+.thumbnail:hover {
+    border-color: white;
+    border-width: 5px;
+    border-spacing: 10px;
+}
+span {
+    position: relative;
+    top: 40%;
+    display: block;
+    text-align: center;
+}
+
+#redwood {
+    background-image: url("../redwood/images/1.jpg");
+}
+#oahu {
+    background-image: url("../oahu/images/1.jpg");
+}
+#kuaui {
+    background-image: url("../kuaui/images/1.jpg");
+}
+
